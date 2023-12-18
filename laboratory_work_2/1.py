@@ -7,7 +7,7 @@ def calculate_sin_n_times(n):
     for i in range(n):
         result = math.sin(1.57)
     end = time.time()
-    return end - start
+    return round(end - start, 3)
 
 
 print(calculate_sin_n_times(100000))
